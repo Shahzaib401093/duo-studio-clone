@@ -187,18 +187,18 @@ navShow.addEventListener("click", function () {
   navbar.style.top = "100%";
 });
 
-function navScrollShow() {
-  var navScroller = document.querySelector(".nav-scroller");
-  var navLinks = document.querySelectorAll(".navbar li a");
-  navLinks.forEach((link) => {
-    link.addEventListener("mouseenter", function () {
-      navScroller.style.zIndex = 9;
-      navScroller.style.opacity = 1;
-    });
-    link.addEventListener("mouseleave", function () {
-      navScroller.style.zIndex = 0;
-      navScroller.style.opacity = 0;
-    });
-  });
-}
-navScrollShow();
+// function navScrollShow() {
+//   var navScroller = document.querySelector(".nav-scroller");
+//   var navLinks = document.querySelectorAll(".navbar li a");
+//   navLinks.forEach((link) => {
+//     link.addEventListener("mouseenter", function () {
+//       navScroller.style.zIndex = 9;
+//       navScroller.style.opacity = 1;
+//     });
+//     link.addEventListener("mouseleave", function () {
+//       navScroller.style.zIndex = 0;
+//       navScroller.style.opacity = 0;
+//     });
+//   });
+// }
+// navScrollShow();
